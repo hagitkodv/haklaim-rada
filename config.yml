@@ -1,0 +1,43 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+locale: "he"
+
+collections:
+  - name: "content"
+    label: "תוכן האתר"
+    files:
+      - name: "site"
+        label: "יריד החקלאים באים – ראדא"
+        file: "content/site.json"
+        format: "json"
+        fields:
+          - label: "פרטי היריד"
+            name: "event"
+            widget: "object"
+            fields:
+              - {label: "כותרת", name: "title", widget: "string"}
+              - {label: "כותרת משנה", name: "subtitle", widget: "string"}
+              - {label: "פתיח", name: "intro", widget: "text"}
+              - {label: "תאריך", name: "date", widget: "string"}
+              - {label: "שעות", name: "time", widget: "string"}
+              - {label: "מיקום", name: "location", widget: "string"}
+              - {label: "הסבר איך זה עובד", name: "notes", widget: "text"}
+          - label: "משקים"
+            name: "farmers"
+            widget: "list"
+            summary: "{{fields.name}} — {{fields.category}}"
+            fields:
+              - {label: "שם המשק / החקלאי", name: "name", widget: "string"}
+              - {label: "סיווג מכירה", name: "category", widget: "select", options: ["מכירה במקום + הזמנות מראש", "הזמנה מראש + ספיירים למכירה במקום", "בעיקר הזמנות מראש + מעט ספיירים", "הזמנות מראש בלבד"]}
+              - {label: "אימוג'י", name: "emoji", widget: "string", required: false}
+              - {label: "מיקום", name: "location", widget: "string", required: false}
+              - {label: "תיאור קצר", name: "description", widget: "text"}
+              - {label: "מוצרים / מחירים", name: "products", widget: "text", required: false}
+              - {label: "קישור להזמנה", name: "order_url", widget: "string", required: false}
+              - {label: "קישור למידע / אינסטגרם", name: "info_url", widget: "string", required: false}
+              - {label: "תמונה", name: "image", widget: "image", required: false}

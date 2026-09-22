@@ -1,0 +1,98 @@
+{
+  "event": {
+    "title": "החקלאים באים לראדא 🌾",
+    "subtitle": "יריד תוצרת ישראלית ישירות מהחקלאים",
+    "intro": "פוגשים את החקלאים, מזמינים מראש, אוספים ביריד ותומכים בחקלאות ובעסקים ישראליים ❤️",
+    "date": "להשלמה",
+    "time": "להשלמה",
+    "location": "חברת ראדא",
+    "notes": "חלק מהחקלאים יגיעו עם תוצרת למכירה במקום, חלקם יביאו הזמנות מראש וגם מעט ספיירים, וחלקם יביאו הזמנות מראש בלבד. מומלץ להזמין מראש כדי להבטיח שהמוצרים יחכו לכם ביריד."
+  },
+  "farmers": [
+    {
+      "name": "רגב עץ – עידו",
+      "category": "מכירה במקום + הזמנות מראש",
+      "emoji": "🪵✨",
+      "location": "תושב הצפון",
+      "description": "קרשי הגשה, אגרטלים ומזוזות מעץ. מתנה נפלאה לחג ותמיכה בעסק של מילואימניק תושב הצפון.",
+      "order_url": "",
+      "info_url": "https://www.instagram.com/regev_etz/",
+      "image": ""
+    },
+    {
+      "name": "אלכס קרימר – מעלה גמלא",
+      "category": "הזמנה מראש + ספיירים למכירה במקום",
+      "emoji": "🥭🫘✨",
+      "location": "מעלה גמלא",
+      "description": "מנגו עומר, מנגו שלי ותמרי מג'הול סופר עסיסיים.",
+      "products": "מנגו עומר / מנגו שלי – כ־5 ק״ג: 60 ₪\nתמר מג'הול – כ־1 ק״ג: 35 ₪",
+      "order_url": "https://mypips.app/mangokreimer",
+      "info_url": "",
+      "image": ""
+    },
+    {
+      "name": "שרון עשבי – לחמי מחמצת",
+      "category": "הזמנה מראש + ספיירים למכירה במקום",
+      "emoji": "🍞✨",
+      "location": "",
+      "description": "לחמי מחמצת טריים לחג.",
+      "products": "לחם מחמצת כפרי – 35 ₪\nלחם מחמצת פועלים – 35 ₪",
+      "order_url": "https://links.payboxapp.com/EgrQCX9BC6b",
+      "info_url": "",
+      "image": ""
+    },
+    {
+      "name": "עודד שליסר – עין עירון",
+      "category": "הזמנה מראש + ספיירים למכירה במקום",
+      "emoji": "🥑✨",
+      "location": "עין עירון",
+      "description": "אבוקדו מזן גליל.",
+      "products": "כ־2 ק״ג – 20 ₪",
+      "order_url": "https://links.payboxapp.com/rRmcYyNxg6b",
+      "info_url": "",
+      "image": ""
+    },
+    {
+      "name": "משק ביידר – נתיב העשרה",
+      "category": "בעיקר הזמנות מראש + מעט ספיירים",
+      "emoji": "🫐✨",
+      "location": "עוטף עזה",
+      "description": "פטל, קונפיטורות, שוקולד, ליקר פטל, רטבים וסבונים.",
+      "order_url": "https://greeninvoice.shop/petelofer",
+      "info_url": "",
+      "image": "images/baider.jpeg"
+    },
+    {
+      "name": "מכוורת פז – אורן פז",
+      "category": "בעיקר הזמנות מראש + מעט ספיירים",
+      "emoji": "🍯✨",
+      "location": "כפר חיים",
+      "description": "דבש פרחי בר, דבש הדרים, דבש אבוקדו ויערת דבש.",
+      "products": "350 גרם – 25 ₪\nחצי קילו – 30 ₪\n1 ק״ג – 55 ₪\n1.5 ק״ג – 75 ₪",
+      "order_url": "https://links.payboxapp.com/suKc5jisOUb",
+      "info_url": "",
+      "image": ""
+    },
+    {
+      "name": "משק דניאל – שדה יצחק",
+      "category": "בעיקר הזמנות מראש + מעט ספיירים",
+      "emoji": "🍅🥬🌶️🥒🌽💐",
+      "location": "שדה יצחק",
+      "description": "פרחים, ירקות, עציצים וכלים.",
+      "order_url": "https://www.meshekdaniel.shop",
+      "info_url": "",
+      "image": ""
+    },
+    {
+      "name": "שמן ברמה",
+      "category": "הזמנות מראש בלבד",
+      "emoji": "🫒✨",
+      "location": "",
+      "description": "שמן זית וסבונים.",
+      "products": "ההזמנות יגיעו ביום ראשון.",
+      "order_url": "",
+      "info_url": "",
+      "image": "images/shemen-berama.jpeg"
+    }
+  ]
+}
