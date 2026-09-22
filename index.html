@@ -27,7 +27,7 @@ main{max-width:1100px;margin:auto;padding:10px 20px 60px}.section-title{text-ali
 <body>
 <header class="hero">
 <a class="admin" href="/admin/">✏️ עריכת האתר</a>
-<div class="logo"><imgsrc="/images/LOGOERAN.jpeg" alt="לוגו"></div>
+<div class="logo"><img src="/images/LOGOERAN.jpeg" alt="לוגו"></div>
 <h1 id="title">החקלאים באים לראדא</h1>
 <div class="sub" id="subtitle"></div>
 <p id="intro"></p>
@@ -53,7 +53,7 @@ fetch('/content/site.json').then(r=>r.json()).then(data=>{
  const grid=document.getElementById('grid');
  data.farmers.forEach(f=>{
    const card=document.createElement('article'); card.className='card';
-const imgs=f.images&&f.images.length?f.images:(f.image?[f.image]:[]); const media=imgs.length?`<div class="gallery"><img class="photo gallery-img" src="${imgs[0]}" alt="${esc(f.name)}">${imgs.length>1?`<button class="gallery-arrow gallery-prev" onclick="galleryMove(this,-1)">›</button><button class="gallery-arrow gallery-next" onclick="galleryMove(this,1)">‹</button>`:''}</div>`:`<div class="photo placeholder"><imgsrc="/images/LOGOERAN.jpeg" alt="לוגו"></div>`;   const info=f.info_url ? `<a class="btn secondary" href="${f.info_url}" target="_blank" rel="noopener">🌱 למידע / היכרות</a>` : '';
+const imgs=f.images&&f.images.length?f.images:(f.image?[f.image]:[]); const media=imgs.length?`<div class="gallery"><img class="photo gallery-img" src="${imgs[0]}" alt="${esc(f.name)}">${imgs.length>1?`<button class="gallery-arrow gallery-prev" onclick="galleryMove(this,-1)">›</button><button class="gallery-arrow gallery-next" onclick="galleryMove(this,1)">‹</button>`:''}</div>`:`<div class="photo placeholder"><img src="/images/LOGOERAN.jpeg" alt="לוגו"></div>`;   const info=f.info_url ? `<a class="btn secondary" href="${f.info_url}" target="_blank" rel="noopener">🌱 למידע / היכרות</a>` : '';
    const order=f.order_url ? `<a class="btn primary" href="${f.order_url}" target="_blank" rel="noopener">🛒 להזמנה מראש</a>` : `<span class="btn disabled">📦 הזמנה מראש</span>`;
    card.innerHTML=`${media}<div class="cardbody"><div class="tag">${esc(f.category)}</div><h3>${esc(f.emoji||'')} ${esc(f.name)}</h3>${f.location?`<div class="loc">${esc(f.location)}</div>`:''}<div class="desc">${esc(f.description||'')}</div>${f.products?`<div class="products">${esc(f.products)}</div>`:''}<div class="actions">${order}${info}</div></div>`;
    grid.appendChild(card);
