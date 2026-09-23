@@ -81,7 +81,7 @@
       "description": "פרחים, ירקות, עציצים וכלים.",
       "order_url": "https://www.meshekdaniel.shop",
       "info_url": "",
-      "images": "./images/DANIELFLOWERS2.jpeg"
+      "images": ["./images/DANIELFLOWERS2.jpeg"]
     },
     {
       "name": "שמן ברמה",
