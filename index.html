@@ -46,7 +46,7 @@ main{max-width:1100px;margin:auto;padding:10px 20px 60px}.section-title{text-ali
 </main>
 <footer>החקלאים באים ❤️<br>תוצרת ישראלית, קשר ישיר ותמיכה בחקלאים ובעסקים מקומיים.</footer>
 <script>
-fetch('/content/site.json').then(r=>r.json()).then(data=>{
+fetch('./content/site.json').then(r=>r.json()).then(data=>{
  const e=data.event;
  window.farmers=data.farmers;
  for(const [id,val] of [['title',e.title],['subtitle',e.subtitle],['intro',e.intro],['date',e.date],['time',e.time],['location',e.location],['notes',e.notes]]) document.getElementById(id).textContent=val||'';
