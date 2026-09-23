@@ -39,7 +39,7 @@
       "products": "לחם מחמצת כפרי – 35 ₪\nלחם מחמצת פועלים – 35 ₪",
       "order_url": "https://links.payboxapp.com/EgrQCX9BC6b",
       "info_url": "",
-      "images": ["../images/SHARONLECHEM.jpeg"]
+      "images": ["./images/SHARONLECHEM.jpeg"]
     },
     {
       "name": "עודד שליסר – עין עירון",
@@ -50,7 +50,7 @@
       "products": "כ־2 ק״ג – 20 ₪",
       "order_url": "https://links.payboxapp.com/rRmcYyNxg6b",
       "info_url": "",
-      "images": ["../images/ODEDAVOCADO.jpeg"]
+      "images": ["./images/ODEDAVOCADO.jpeg"]
     },
     {
       "name": "משק ביידר – נתיב העשרה",
@@ -60,7 +60,7 @@
       "description": "פטל, קונפיטורות, שוקולד, ליקר פטל, רטבים וסבונים.",
       "order_url": "https://greeninvoice.shop/petelofer",
       "info_url": "",
-      "images": ["../images/baider.jpeg"]
+      "images": ["./images/baider.jpeg"]
     },
     {
       "name": "מכוורת פז – אורן פז",
@@ -71,7 +71,7 @@
       "products": "350 גרם – 25 ₪\nחצי קילו – 30 ₪\n1 ק״ג – 55 ₪\n1.5 ק״ג – 75 ₪",
       "order_url": "https://links.payboxapp.com/suKc5jisOUb",
       "info_url": "",
-      "images": ["../images/DVASHPAZ.jpeg", "../images/DVASHPAZ2.jpeg", "../images/DVASHPAZ3.jpeg"]
+      "images": ["./images/DVASHPAZ.jpeg", "./images/DVASHPAZ2.jpeg", "./images/DVASHPAZ3.jpeg"]
     },
     {
       "name": "משק דניאל – שדה יצחק",
@@ -81,7 +81,7 @@
       "description": "פרחים, ירקות, עציצים וכלים.",
       "order_url": "https://www.meshekdaniel.shop",
       "info_url": "",
-      "images": ["../images/DANIELFLOWERS1.jpeg", "../images/DANIELFLOWERS2.jpeg", "../images/DANIELBOX.jpeg"]
+      "images": ["./images/DANIELFLOWERS1.jpeg", "./images/DANIELFLOWERS2.jpeg", "./images/DANIELBOX.jpeg"]
     },
     {
       "name": "שמן ברמה",
@@ -92,7 +92,7 @@
       "products": "ההזמנות יגיעו ביום ראשון.",
       "order_url": "https://shemenbarama.com/product-category/groups/",
       "info_url": "",
-      "images": ["../images/SHEMENBARAMA1.jpeg", "../images/SHEMENBARAMA2.jpeg", "../images/SHEMENBARAMA3.jpeg"]
+      "images": ["./images/SHEMENBARAMA1.jpeg", "./images/SHEMENBARAMA2.jpeg", "./images/SHEMENBARAMA3.jpeg"]
     }
   ]
 }
