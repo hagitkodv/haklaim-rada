@@ -17,7 +17,7 @@
       "description": "קרשי הגשה, אגרטלים ומזוזות מעץ. מתנה נפלאה לחג ותמיכה בעסק של מילואימניק תושב הצפון.",
       "order_url": "",
       "info_url": "https://www.instagram.com/regev_etz/",
-      "images": ["/images/REGEVETZ1.jpeg", "/images/REGEVETZ2.jpeg"]
+      "images": ["images/REGEVETZ1.jpeg", "images/REGEVETZ2.jpeg"]
     },
     {
       "name": "אלכס קרימר – מעלה גמלא",
@@ -28,7 +28,7 @@
       "products": "נגו עומר / מנגו שלי כ5 ק״ג: 60 ₪\nתמר מג'הול כ1 ק״ג 35 ₪",
       "order_url": "https://mypips.app/mangokreimer",
       "info_url": "",
-      "images": ["../images/ALEXMANGO.jpeg"]
+      "images": ["images/ALEXMANGO.jpeg"]
     },
     {
       "name": "שרון עשבי – לחמי מחמצת",
